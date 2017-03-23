@@ -1,0 +1,115 @@
+
+html { 
+  background: url(images/up.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.square {
+    height:20px;
+    width:20px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    position: relative;
+
+}
+
+.squareBeat {
+    height:20px;
+    width:20px;
+    display: inline-block;
+    border: 2px solid rgb(20,20,20);
+    position: relative;
+
+}
+.metronomeRect {
+    height:5px;
+    width:20px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    position: relative;
+
+
+}
+.container {
+	border: 1px solid rgb(230, 230, 230);
+	width: 650px;
+	background-color: rgb(20, 20, 20);
+	margin: 0px auto;
+	padding: 20px 20px 15px 20px;
+  	-webkit-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.2);
+  	display: none;
+  	display: block;
+
+}
+
+.insideSquare{
+	width: 20px;
+    display: block;
+    position: absolute;
+	height: 20px;
+	background-color:white;
+
+}
+.rowSequence{
+    height:10px;
+    width:60px;
+    margin-bottom: 20px;
+    border-color: #FFFFFF;
+    display: inline-block;
+   text-align:center;
+}
+
+.metronomeRow{
+    	height:0px;
+    	width:60px;
+    	margin-bottom: 20px;
+    	border-color: #FFFFFF;
+    	display: inline-block;
+	text-align:center;
+   	font-size: 2px;
+
+}
+
+#metronome_1_00{
+	    width: 20px;
+        height: 5px;
+
+}
+
+
+.inputContainer{
+    height: 50px;
+    padding: 1px;
+    margin: 1px;
+    width: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.controlButtons{
+    height: 50px;
+    padding: 1px;
+    margin: 1px;
+    width: 50px;
+
+
+}
+.controlDiv{
+    text-align: center;
+
+}
+
+#title{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+
+
